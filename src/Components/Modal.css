@@ -1,0 +1,10 @@
+* {
+    font-family: Public Sans, sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+}
+select {
+    font-family: Public Sans, sans-serif;
+    font-size: 14px !important;
+    line-height: 28px !important;
+}
