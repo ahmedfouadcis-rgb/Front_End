@@ -14,7 +14,7 @@ function Section() {
   ]);
 
   async function getProducts() {
-    const res = await axios.get("http://localhost:3000/products/");
+    const res = await axios.get("https://back-end-clic.vercel.app/");
     await setProducts(res.data.products);
 
   }
