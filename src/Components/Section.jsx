@@ -15,7 +15,7 @@ function Section() {
 
   async function getProducts() {
     const res = await axios.get("https://back-end-clic.vercel.app/products/");
-    await setProducts(res.data.products);
+    setProducts(res.data.allProducts); 
 
   }
   useEffect(() => {
