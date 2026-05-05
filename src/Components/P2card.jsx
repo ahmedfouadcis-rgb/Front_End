@@ -1,5 +1,5 @@
-const API_BASE = "https://back-end-clic.vercel.app/";
-//const API_BASE = "https://front-end-henna-psi.vercel.app/";
+//const API_BASE = "https://back-end-clic.vercel.app/";
+const API_BASE = "https://front-end-henna-psi.vercel.app/";
 function P2card({ database }) {
   const imageUrl = database?.image
     ? database.image.startsWith("http")
